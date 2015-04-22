@@ -51,15 +51,15 @@ body {
 	margin-top: -36%;
 	position:absolute;
 	background-color: white;
-	width: 35%;
+	width: 34%;
 	height: 50%;
 	/*border-style: solid;*/
     /*background-color:rgba(0,0,0,0.0);*/
     border-radius: 5px 5px 5px 5px;
     overflow: auto;
     padding-right: 28px;
-    border-bottom-left-radius:15%;
-    border-bottom-right-radius:15%;
+    border-bottom-left-radius:10%;
+    border-bottom-right-radius:10%;
     border-top-left-radius:10%;
     border-top-right-radius:10%;
     z-index: 10;
@@ -98,8 +98,8 @@ body {
 }
 
 #contact_email {
-	margin-top: 32%;
-	margin-left: 28%;
+	margin-top: 30%;
+	margin-left: 33%;
 	font-size: 15px;
 	font-family: 'Arvo', Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -115,8 +115,8 @@ body {
 }
 
 #contact_phone {
-	margin-top: 38%;
-	margin-left: 33%;
+	margin-top: 36%;
+	margin-left: 39%;
 	font-size: 15px;
 	font-family: 'Arvo', Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -146,8 +146,8 @@ body {
 	font-weight: bold;
 	color: black;
 	text-decoration: underline;
-	margin-left:33.5%;
-	margin-top:-32.5%;
+	margin-left:43%;
+	margin-top:-43%;
 	position: absolute;
 }
 
@@ -173,8 +173,8 @@ body {
 	font-weight: bold;
 	color: black;
 	text-decoration: none;
-	margin-left:12%;
-	margin-top:36%;
+	margin-left:15%;
+	margin-top:34%;
 	position: absolute;
 	font-size: 15px;
 }
@@ -191,8 +191,8 @@ body {
 	font-weight: bold;
 	color: black;
 	text-decoration: none;
-	margin-left:47%;
-	margin-top:36%;
+	margin-left:50%;
+	margin-top:34%;
 	position: absolute;
 	font-size: 15px;
 }
@@ -279,7 +279,7 @@ body {
 }
 
 #resume_doc {
-	width: 430px;
+	width: 410px;
 	height: 675px;
 	position: center;
 	margin-left: -2%;
