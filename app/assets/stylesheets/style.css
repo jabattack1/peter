@@ -29,6 +29,8 @@ body {
   /*background-repeat:no-repeat;*/
   background-attachment:scroll;
   overflow-x: hidden;
+  width: 800px;
+  margin: 0 auto;
   /*position: absolute;*/
 
   /*overflow-y: hidden;*/
