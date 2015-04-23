@@ -298,7 +298,7 @@ body {
 	position: absolute;
 	
 	height: 3%; 
-    width: 70%; 
+    width: 80%; 
 	/*border-style: solid;*/
     /*background-color:rgba(0,0,0,0.5);*/
     /*border-radius: 5px 5px 5px 5px;*/
@@ -315,7 +315,7 @@ body {
 #cred{
 	font-family: 'Arvo', Georgia, Times, serif;
 	color: black;
-	margin-left: 81%;
+	margin-left: 72%;
 	margin-top: 0.4%;
 	position: absolute;
 }
