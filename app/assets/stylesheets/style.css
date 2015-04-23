@@ -29,10 +29,10 @@ body {
 
 #content_container {
 	content:url(http://i1301.photobucket.com/albums/ag119/jabattack1/tv_zpszvvnkce9.png);
-	height: 520px;
+	height: 518px;
 	width: 750px;
 	margin-left: 20%;
-	position: relative;
+	position: static;
 }
 
 
