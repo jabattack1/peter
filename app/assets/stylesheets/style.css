@@ -1,11 +1,16 @@
 
 html {
-  				width: 900px;
-                height: 670px;
-  				background-color: white;
-                margin: 0;
-                padding: 0;
-            }
+  	width:900px;
+  	height: 670px;
+  /*background-color:rgba(0,0,0,0.5);*/
+   	margin:0;
+   	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+	position: absolute;
+	top: 1%;
+	background-color: white;
+              /*position: center;*/
+    }
 
 body {
   background: url() no-repeat;
@@ -19,16 +24,19 @@ body {
   /*background-color: #FFFFFF;*/
   /*background-position: 50.5% 0.2%;*/
   font-family: Georgia, serif;
-  /*position: absolute;*/
+  background-position: center;
   /*background-size: contain;*/
   /*background-repeat:no-repeat;*/
   background-attachment:scroll;
   overflow-x: hidden;
+  /*position: absolute;*/
+
   /*overflow-y: hidden;*/
 }
 
 #content_container {
 	content:url(http://i1301.photobucket.com/albums/ag119/jabattack1/tv_zpszvvnkce9.png);
+	/*background-position: center;*/
 	height: 518px;
 	width: 750px;
 	margin-left: 152px;
@@ -293,12 +301,12 @@ body {
 #rights {
 	font-family: 'Arvo', Georgia, Times, serif;
 	color: #FFFFFF;
-	margin-left: 170px;
+	margin-left: 150px;
 	margin-top: 530px;
 	position: absolute;
 	
-	height: 3%; 
-    width: 80%; 
+	height: 20px; 
+    width: 900px; 
 	/*border-style: solid;*/
     /*background-color:rgba(0,0,0,0.5);*/
     /*border-radius: 5px 5px 5px 5px;*/
@@ -307,7 +315,7 @@ body {
 #copyright {
 	font-family: 'Arvo', Georgia, Times, serif;
 	color: black;
-	margin-left: -15px;
+	margin-left: 0px;
 	margin-top: 2px;
 	position: absolute;
 }
@@ -315,7 +323,7 @@ body {
 #cred{
 	font-family: 'Arvo', Georgia, Times, serif;
 	color: black;
-	margin-left: 660px;
+	margin-left: 736px;
 	margin-top: 2px;
 	position: absolute;
 }
