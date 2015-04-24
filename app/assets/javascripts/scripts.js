@@ -9,8 +9,14 @@ var sites ="<a href=https://github.com/jabattack1 target=\"_blank\" class='anima
 var resume = "<iframe src=\"https://docs.google.com/file/d/0B_QUho3Z8WoPck0xRjA5akRvYjA/preview\" class='animated fadeIn' id='resume_doc'></iframe>";
 var projects ="<a href=http://www.seafoodbay.net/ target=\"_blank\" class='animated fadeIn' id='sites_seafood'>www.seafoodbay.net</a><a href=http://www.peterhahn.me/ target=\"_blank\" class='animated fadeIn' id='sites_peter'>www.peterhahn.me</a>"; 
 var contact ="<a href=\"mailto:peter.hahn@live.com\" class='animated fadeIn' id='contact_email'>peter.hahn@live.com</a><p class='animated fadeIn' id='contact_phone'>551-689-3517</p>"
+var tv ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/snow_zpsd3ayaw2w.gif' id='tv'>"; 
 
-function about_onClick(e) {
+function snow_onClick(){
+	$('#content').empty();
+	$('#content').append(tv);
+}
+
+function about_onClick() {
 	console.log('about');
 
 	$('#content').empty();
