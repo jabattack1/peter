@@ -36,6 +36,13 @@ body {
   /*overflow-y: hidden;*/
 }
 
+#box {
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+  position: absolute;
+  }
+
 #content_container {
 	content:url(http://i1301.photobucket.com/albums/ag119/jabattack1/tv_zpszvvnkce9.png);
 	/*background-position: center;*/
@@ -64,6 +71,31 @@ body {
 	background-color: white;
 	width: 442px;
 	height: 336px;
+	/*border-style: solid;*/
+    /*background-color:rgba(0,0,0,0.0);*/
+  border-radius: 5px 5px 5px 5px;
+  overflow-x:none;
+  overflow-y: auto;
+  padding-right: 28px;
+  border-bottom-left-radius:10%;
+  border-bottom-right-radius:10%;
+  border-top-left-radius:10%;
+  border-top-right-radius:10%;
+  z-index: 10;
+    
+}
+
+#content_tv {
+	/*opacity: 0.4;*/
+	font-family: 'Arvo', Georgia, Times, serif;
+	font-size: .8em;
+	color: white;
+	margin-left: 222px;
+	margin-top: -457px;
+	position:absolute;
+	background-color: white;
+	width: 462px;
+	height: 366px;
 	/*border-style: solid;*/
     /*background-color:rgba(0,0,0,0.0);*/
     border-radius: 5px 5px 5px 5px;
@@ -332,7 +364,7 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	color: #FFFFFF;
 	margin-left: 150px;
-	margin-top: 530px;
+	margin-top: 580px;
 	position: absolute;
 	
 	height: 20px; 
