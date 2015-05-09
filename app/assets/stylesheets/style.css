@@ -68,7 +68,7 @@ body {
 	margin-left: 222px;
 	margin-top: -457px;
 	position:absolute;
-	background-color: white;
+	/*background-color: white;*/
 	width: 442px;
 	height: 336px;
 	/*border-style: solid;*/
@@ -81,7 +81,7 @@ body {
   border-bottom-right-radius:10%;
   border-top-left-radius:10%;
   border-top-right-radius:10%;
-  z-index: 10;
+  z-index: 1;
     
 }
 
@@ -142,13 +142,25 @@ body {
 #tv {
 	width: 475px;
 	height: 317px;
-	position: absolute;
+	/*position: absolute;*/
 	margin-left: -2%;
 	margin-right: 2%;
 	margin-top: 2%;
 	margin-bottom: 2%;
 	overflow-x: none;
 	overflow-y: none;
+  z-index: -1; position:absolute
+}
+
+#snowscreen {
+  width: 495px;
+  height: 367px;
+  margin-left: 205px;
+  margin-top: 100px;
+  /*position: absolute;*/
+  overflow-x: none;
+  overflow-y: none;
+  z-index: -1; position:absolute
 }
 
 #contact_email {
@@ -254,6 +266,24 @@ body {
 #sites_peter:hover { 
 	font-family: 'Arvo', Helvetica, Arial, sans-serif;
 	font-weight: bold;
+    color: #FF8300;
+    text-decoration: none;
+}
+
+#sites_audio {
+  font-family: 'Arvo', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin-left:35%;
+  margin-top:40%;
+  position: absolute;
+  font-size: 15px;
+}
+
+#sites_audio:hover { 
+  font-family: 'Arvo', Helvetica, Arial, sans-serif;
+  font-weight: bold;
     color: #FF8300;
     text-decoration: none;
 }

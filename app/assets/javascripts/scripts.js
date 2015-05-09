@@ -8,25 +8,27 @@ var headshot = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/h
 var pointer = "<p class='animated fadeIn' id=sites_link>Links:</p>"
 var sites ="<a href=https://github.com/jabattack1 target=\"_blank\" class='animated fadeIn' id='sites_github'>GitHub</a><a href=http://www.rebelsolo.com/ target=\"_blank\" class='animated fadeIn' id='sites_rebel'>Rebel Solo (musician)</a>";
 var resume = "<iframe src=\"https://docs.google.com/file/d/0B_QUho3Z8WoPck0xRjA5akRvYjA/preview\" class='animated fadeIn' id='resume_doc'></iframe>";
-var projects ="<a href=http://www.seafoodbay.net/ target=\"_blank\" class='animated fadeIn' id='sites_seafood'>www.seafoodbay.net</a><a href=http://www.peterhahn.me/ target=\"_blank\" class='animated fadeIn' id='sites_peter'>www.peterhahn.me</a>"; 
+var projects ="<a href=http://www.seafoodbay.net/ target=\"_blank\" class='animated fadeIn' id='sites_seafood'>www.seafoodbay.net</a><a href=http://www.peterhahn.me/ target=\"_blank\" class='animated fadeIn' id='sites_peter'>www.peterhahn.me</a><a href=http://www.audio-boy.com/ target=\"_blank\" class='animated fadeIn' id='sites_audio'>www.audio-boy.com</a>"; 
 var contact ="<a href=\"mailto:peter.hahn@live.com\" class='animated fadeIn' id='contact_email'>peter.hahn@live.com</a><p class='animated fadeIn' id='contact_phone'>551-689-3517</p>"
 
 var content_tv ="<div id=\"content_tv\" class=\"content\"><script>$('#content_tv').append(tv);</script></div>";
 var tv ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/snow_zpsd3ayaw2w.gif' id='tv'>"; 
+var snowscreen ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/snow_zpsd3ayaw2w.gif' id='snowscreen'>";
 
 function snow_onClick(){
 
+	$("body").children("#snowscreen").remove();
 	$('#content').empty();
 	// $('body').remove(content);
 	// $('body').append(content_tv);
 	// $('#content').empty();
-	$('#content').append(tv);
+	$('body').append(snowscreen);
 }
 
 function about_onClick() {
 	console.log('about');
 
-    
+    $("body").children("#snowscreen").remove();
 	$('#content').empty();
 	// $('body').append(content);
 	$('#content').append(template);
@@ -43,6 +45,7 @@ function resume_onClick() {
 	console.log('resume');
 
 	// $('#content_tv').empty();
+	$("body").children("#snowscreen").remove();
 	$('#content').empty();
 	// $('body').append(content);
 	$('#content').append(resume);
@@ -53,6 +56,7 @@ function contact_onClick() {
 	console.log('contact');
 
 	// $('#content_tv').empty();
+	$("body").children("#snowscreen").remove();
 	$('#content').empty();
 	// $('body').append(content);
 	$('#content').append(contact);
@@ -63,6 +67,7 @@ function project_onClick() {
 	console.log('project');
 
 	// $('#content_tv').empty();
+	$("body").children("#snowscreen").remove();
 	$('#content').empty();
 	// $('body').append(content);
 	$('#content').append(projects);
