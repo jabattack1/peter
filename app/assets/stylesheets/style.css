@@ -308,7 +308,7 @@ body {
 	font-weight: bold;
 	color: black;
 	text-decoration: none;
-	margin-left: 970px;
+	margin-left: 980px;
 	margin-top: 160px;
 	position: absolute;
 }
@@ -325,7 +325,7 @@ body {
 	font-weight: bold;
 	color: black;
 	text-decoration: none;
-	margin-left: 970px;
+	margin-left: 980px;
 	margin-top: 202px;
 	position: absolute;
 }
@@ -342,7 +342,7 @@ body {
 	font-weight: bold;
 	color: black;
 	text-decoration: none;
-	margin-left: 970px;
+	margin-left: 980px;
 	margin-top: 244px;
 	position: absolute;
 }
@@ -359,7 +359,7 @@ body {
 	font-weight: bold;
 	color: black;
 	text-decoration: none;
-	margin-left: 970px;
+	margin-left: 980px;
 	margin-top: 286px;
 	position: absolute;
 }
@@ -376,7 +376,7 @@ body {
 	font-weight: bold;
 	color: black;
 	text-decoration: none;
-	margin-left: 970px;
+	margin-left: 980px;
 	margin-top: 328px;
 	position: absolute;
 }
@@ -409,11 +409,11 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	color: #FFFFFF;
 	margin-left: 170px;
-	margin-top: 590px;
+	margin-top: 580px;
 	position: absolute;
 	
 	height: 20px; 
-    width: 900px; 
+    width: 950px; 
 	/*border-style: solid;*/
     /*background-color:rgba(0,0,0,0.5);*/
     /*border-radius: 5px 5px 5px 5px;*/
@@ -430,7 +430,7 @@ body {
 #cred{
 	font-family: 'Arvo', Georgia, Times, serif;
 	color: black;
-	margin-left: 725px;
+	margin-left: 745px;
 	margin-top: 2px;
 	position: absolute;
 }
