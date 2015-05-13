@@ -26,7 +26,7 @@ body {
 	/*background-position: center;*/
 	height: 518px;
 	width: 750px;
-	margin-left: 170px;
+	margin-left: 190px;
   margin-top: 50px;
 	position: static;
 }
@@ -44,7 +44,7 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: white;
-	margin-left: 240px;
+	margin-left: 260px;
 	margin-top: -457px;
 	position:absolute;
 	/*background-color: white;*/
@@ -69,7 +69,7 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: white;
-	margin-left: 75px;
+	margin-left: 95px;
 	margin-top: -457px;
 	position:absolute;
 	background-color: white;
@@ -134,7 +134,7 @@ body {
 #snowscreen {
   width: 500px;
   height: 367px;
-  margin-left: 220px;
+  margin-left: 240px;
   margin-top: -475px;
   /*position: absolute;*/
   overflow-x: none;
